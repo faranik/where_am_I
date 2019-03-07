@@ -18,3 +18,22 @@ $ sudo apt-get install ros-kinetic-map-server
 $ sudo apt-get install ros-kinetic-move-base
 $ sudo apt-get install ros-kinetic-amcl
 ```
+
+## Teleop Package
+If you prefer to control your robot to help it localize itself, you would need to add the teleop node. You could use ros-teleop package to send command to the robot using keyboard or controller.
+
+Clone the ros-teleop package to your src folder:
+```
+cd /home/workspace/catkin_ws/src
+git clone https://github.com/ros-teleop/teleop_twist_keyboard
+```
+Build the package and source the setup script:
+```
+cd ..
+catkin_make
+source devel/setup.bash
+```
+Now you could run the teleop script as is described in the README file:
+``
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
