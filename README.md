@@ -1,5 +1,5 @@
 # where_am_I
-This project is part of the *Robotics Software Engineering* scholar course offered at Udacity.
+This project is part of the *Robotics Software Engineering* scholar course offered at Udacity. It explores AMCL algorithm for the robot localization problem and its ROS node implementation. 
 
 ## Project Overview
 Welcome to the Where Am I? localization project! In this project, you will learn to utilize ROS AMCL package to accurately localize a mobile robot inside a map in the Gazebo simulation environments.
